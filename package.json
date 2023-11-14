@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "https://denis-larin-22.github.io/ASMR_App",
   "private": true,
   "dependencies": {
     "@nextui-org/react": "^2.2.1",
@@ -25,6 +26,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -50,6 +53,7 @@
   },
   "devDependencies": {
     "@types/redux-logger": "^3.0.12",
+    "gh-pages": "^6.0.0",
     "tailwindcss": "^3.3.5"
   }
 }
