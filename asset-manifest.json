@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ASMR_App/static/css/main.7c7e581a.css",
+    "main.js": "/ASMR_App/static/js/main.33084a65.js",
+    "index.html": "/ASMR_App/index.html",
+    "main.7c7e581a.css.map": "/ASMR_App/static/css/main.7c7e581a.css.map",
+    "main.33084a65.js.map": "/ASMR_App/static/js/main.33084a65.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c7e581a.css",
+    "static/js/main.33084a65.js"
+  ]
+}
